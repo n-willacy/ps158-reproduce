@@ -15,7 +15,7 @@ Each household appears five times (multiple imputation); point estimates pool
 all rows with WGT, which reproduces the medians in the Fed's historical Table 4.
 Standard errors combine imputation and sampling variance (see scf_se.py).
 
-Downloads ~450 MB into data/raw/ on first run. Writes:
+Downloads ~400 MB into data/raw/ on first run. Writes:
     data/networth_by_education.csv   median/mean (+ SE) and share, by year and group
     data/networth_ratio.csv          college / hs_or_less median ratio (+ SE), by year
 """
